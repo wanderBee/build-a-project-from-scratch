@@ -1,0 +1,15 @@
+{
+	"name": "how-to-build-a-web-project-from-scratch",
+	"version": "0.1.0",
+	"description": "what problems can babel、webpack or a mvvm framework solve? we'll try to face the details.",
+	"author": "Wang Pengfei",
+	"license": "MIT",
+	"scripts": {
+		"build": "node src/parser.js"
+	},
+	"dependencies": {
+		"acorn": "^7.1.0",
+		"acorn-walk": "^7.0.0",
+		"sander": "^0.6.0"
+	}
+}
